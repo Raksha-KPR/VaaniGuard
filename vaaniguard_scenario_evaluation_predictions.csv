@@ -1,0 +1,73 @@
+id,language_format,scenario,label,text,predicted_label,correct
+VG-001,kannada_script,kyc_urgency_link,scam,ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆ ಇಂದು ಬ್ಲಾಕ್ ಆಗುತ್ತದೆ. ತಕ್ಷಣ ಈ ಲಿಂಕ್‌ನಲ್ಲಿ KYC ಅಪ್ಡೇಟ್ ಮಾಡಿ: https://example.invalid/kyc,scam,True
+VG-002,kannada_script,otp_request,scam,ನಿಮ್ಮ UPI ಹಣವನ್ನು ಮರಳಿ ಪಡೆಯಲು OTP ಅನ್ನು ಈ ಸಂಖ್ಯೆಗೆ ಕಳುಹಿಸಿ.,scam,True
+VG-007,kannada_script,cvv_request,scam,ನಿಮ್ಮ ಪೇಮೆಂಟ್ ವಿಫಲವಾಗಿದೆ. ರಿಫಂಡ್ ಪಡೆಯಲು ಕಾರ್ಡ್ CVV ಕಳುಹಿಸಿ.,scam,True
+VG-008,kannada_script,advance_fee_impersonation,scam,ಸರ್ಕಾರದ ಸಹಾಯಧನ ಪಡೆಯಲು ಈ ಖಾಸಗಿ UPI ಐಡಿಗೆ ₹250 ನೋಂದಣಿ ಶುಲ್ಕ ಕಳುಹಿಸಿ.,scam,True
+VG-009,kannada_script,remote_access,scam,ಬ್ಯಾಂಕ್ ಭದ್ರತಾ ಪರಿಶೀಲನೆಗಾಗಿ ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ರಿಮೋಟ್ ಆಕ್ಸೆಸ್ ಆಪ್ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ.,scam,True
+VG-010,kannada_script,credential_phishing,scam,ನಿಮ್ಮ UPI ಖಾತೆ ಸ್ಥಗಿತಗೊಳ್ಳುತ್ತದೆ. ಈ ಲಿಂಕ್‌ನಲ್ಲಿ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ: https://example.invalid/verify,scam,True
+VG-017,kannada_script,upi_confirmation,legitimate,UPI ಪಾವತಿ ಯಶಸ್ವಿಯಾಗಿದೆ. ವ್ಯವಹಾರದ ವಿವರಗಳನ್ನು ಆಪ್‌ನಲ್ಲಿ ಪರಿಶೀಲಿಸಿ.,legitimate,True
+VG-018,kannada_script,information,legitimate,ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಶಾಖೆಯ ಕೆಲಸದ ಸಮಯ ಸೋಮವಾರದಿಂದ ಶುಕ್ರವಾರದವರೆಗೆ ಇದೆ.,legitimate,True
+VG-021,romanized_kannada,kyc_urgency_link,scam,"Nimma bank account ivattu block agutte, KYC update madalu https://example.invalid/kyc open madi.",scam,True
+VG-022,romanized_kannada,otp_request,scam,UPI refund beka? OTP nanage share madi.,legitimate,False
+VG-026,romanized_kannada,credential_phishing,scam,"Nimma account close agutte, password ee link alli enter madi https://example.invalid/login",scam,True
+VG-027,romanized_kannada,cvv_request,scam,Refund process ge card CVV number kalisi.,scam,True
+VG-028,romanized_kannada,advance_fee_impersonation,scam,Govt scheme amount sigbekandre first 250 registration fee UPI ge kalisi.,scam,True
+VG-029,romanized_kannada,remote_access,scam,"Bank verification ge remote access app install madi, phone control kodi.",legitimate,False
+VG-039,romanized_kannada,information,legitimate,Nimma bank branch timing morning 10 inda evening 4.,legitimate,True
+VG-041,kannada_english_mixed,kyc_urgency_link,scam,ನಿಮ್ಮ bank account ಇಂದು block ಆಗುತ್ತದೆ. KYC update ಮಾಡಲು https://example.invalid/kyc ತೆರೆಯಿರಿ.,scam,True
+VG-042,kannada_english_mixed,otp_request,scam,UPI refund ಪಡೆಯಲು ನಿಮ್ಮ OTP share ಮಾಡಿ.,legitimate,False
+VG-046,kannada_english_mixed,credential_phishing,scam,ನಿಮ್ಮ account freeze ಆಗುತ್ತದೆ. ಈ link ನಲ್ಲಿ password ನಮೂದಿಸಿ: https://example.invalid/login,scam,True
+VG-047,kannada_english_mixed,cvv_request,scam,Refund ಪಡೆಯಲು ನಿಮ್ಮ card CVV share ಮಾಡಿ.,scam,True
+VG-048,kannada_english_mixed,advance_fee_impersonation,scam,Government scheme amount ಪಡೆಯಲು ಮೊದಲು ₹250 registration fee UPI ಮೂಲಕ ಕಳುಹಿಸಿ.,scam,True
+VG-049,kannada_english_mixed,remote_access,scam,Bank verification ಗಾಗಿ remote access app install ಮಾಡಿ.,legitimate,False
+VG-059,kannada_english_mixed,information,legitimate,ನಿಮ್ಮ bank branch ನಾಳೆ open ಇರುತ್ತದೆ.,legitimate,True
+VG_SYN_061,kannada_script,kyc_urgency_link,scam,ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆ ಇಂದು ಬ್ಲಾಕ್ ಆಗುತ್ತದೆ. ತಕ್ಷಣ ಈ ಲಿಂಕ್ ತೆರೆಯಿರಿ ಮತ್ತು KYC ಪೂರ್ಣಗೊಳಿಸಿ.,scam,True
+VG_SYN_062,kannada_script,otp_request,scam,"ನಿಮ್ಮ UPI ಹಣ ಮರುಪಾವತಿಗೆ OTP ಹೇಳಿ, ಇಲ್ಲದಿದ್ದರೆ ಹಣ ವಾಪಸ್ ಬರುವುದಿಲ್ಲ.",scam,True
+VG_SYN_066,kannada_script,kyc_urgency_link,scam,ನಿಮ್ಮ KYC ಮುಗಿದಿಲ್ಲ. ಖಾತೆ ಉಳಿಸಿಕೊಳ್ಳಲು ಕಾರ್ಡ್ ವಿವರಗಳನ್ನು ಕಳುಹಿಸಿ.,scam,True
+VG_SYN_069,kannada_script,remote_access_scam,scam,ನಿಮ್ಮ ಖಾತೆ ಸುರಕ್ಷಿತವಾಗಿರಲು ಈ ಅಪ್ಲಿಕೇಶನ್ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ ಮತ್ತು ಸ್ಕ್ರೀನ್ ಹಂಚಿಕೊಳ್ಳಿ.,scam,True
+VG_SYN_077,kannada_script,credential_phishing,scam,ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಅನುಮಾನಾಸ್ಪದ ಚಟುವಟಿಕೆ ಇದೆ. ಈ ಲಿಂಕ್‌ನಲ್ಲಿ ಪಾಸ್‌ವರ್ಡ್ ಹಾಕಿ.,scam,True
+VG_SYN_078,kannada_script,government_benefit_fee,scam,ಸರ್ಕಾರಿ ಸಹಾಯಧನ ಬಂದಿದೆ. ಬಿಡುಗಡೆ ಮಾಡಲು ಮೊದಲು ನೋಂದಣಿ ಹಣ ಪಾವತಿಸಿ.,scam,True
+VG_SYN_081,romanized_kannada,kyc_urgency_link,scam,"Nimma bank account ivattu block agutte, link open maadi KYC complete maadi.",scam,True
+VG_SYN_082,romanized_kannada,otp_request,scam,"Refund barbekandre OTP heli, illandre amount return agalla anta helta iddare.",scam,True
+VG_SYN_087,romanized_kannada,remote_access_scam,scam,Nimma account safe irbekandre app install maadi screen share maadi anta helidare.,scam,True
+VG_SYN_094,romanized_kannada,government_benefit_fee,scam,"Government benefit nimge approve agide, release fee modalu pay maadi anta helidare.",scam,True
+VG_SYN_096,romanized_kannada,credential_phishing,scam,Bank verification anta password mattu card number keluva link bandide.,scam,True
+VG_SYN_099,romanized_kannada,kyc_urgency_link,scam,KYC expire agide anta bhaya huttisi account details kelthiddare.,scam,True
+VG_SYN_101,kannada_english_mixed,kyc_urgency_link,scam,"Nimma KYC pending ide; account block ಆಗುತ್ತೆ, ಈ link open ಮಾಡಿ.",scam,True
+VG_SYN_102,kannada_english_mixed,otp_request,scam,Refund process ಗೆ OTP ಬೇಕು ಅಂತಾರೆ; OTP share ಮಾಡಬೇಡಿ ಎನ್ನುವುದನ್ನು ಮರೆಮಾಡುತ್ತಾರೆ.,legitimate,False
+VG_SYN_107,kannada_english_mixed,remote_access_scam,scam,Account secure ಮಾಡಲು ಈ app install ಮಾಡಿ screen share ಮಾಡಿ ಅಂತ ಹೇಳಿದ್ದಾರೆ.,scam,True
+VG_SYN_114,kannada_english_mixed,government_benefit_fee,scam,Government scheme benefit ಬಂದಿದೆ; processing fee ಮೊದಲು pay ಮಾಡಿ.,scam,True
+VG_SYN_116,kannada_english_mixed,credential_phishing,scam,Bank verification link ನಲ್ಲಿ password enter ಮಾಡಿ ಅಂತ ಕೇಳಿದ್ದಾರೆ.,scam,True
+VG_SYN_119,kannada_english_mixed,kyc_urgency_link,scam,"KYC expire ಆಗಿದೆ, account safe ಇರಬೇಕಾದರೆ details share ಮಾಡಿ ಅಂತಾರೆ.",scam,True
+VG_SYN_121,kannada_script,normal_payment,legitimate,ನಾನು ಹಣ ಕಳುಹಿಸಿದ್ದೇನೆ. ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಜಮೆಯಾದಿದೆಯೇ ನೋಡಿ.,legitimate,True
+VG_SYN_124,kannada_script,normal_payment,legitimate,ನಾನು ಅಂಗಡಿಯಲ್ಲಿ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಬಿಲ್ ಪಾವತಿಸಿದೆ.,legitimate,True
+VG_SYN_125,kannada_script,official_kyc,legitimate,ಬ್ಯಾಂಕ್‌ನ ಅಧಿಕೃತ ಶಾಖೆಗೆ ಹೋಗಿ KYC ವಿವರಗಳನ್ನು ನವೀಕರಿಸುತ್ತೇನೆ.,legitimate,True
+VG_SYN_127,kannada_script,payment_receipt,legitimate,ನಿಮ್ಮ ಪಾವತಿಯ ರಸೀದಿಯನ್ನು ಅಧಿಕೃತ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಉಳಿಸಿಕೊಳ್ಳಿ.,legitimate,True
+VG_SYN_128,kannada_script,safe_refund_process,legitimate,ತಪ್ಪಾದ ಪಾವತಿ ಕಂಡುಬಂದರೆ ಬ್ಯಾಂಕ್‌ನ ಅಧಿಕೃತ ಸಹಾಯವಾಣಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ.,legitimate,True
+VG_SYN_132,kannada_script,official_kyc,legitimate,ನಿಮ್ಮ ಖಾತೆಯ ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಶಾಖೆಯಲ್ಲಿ ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ತೆಗೆದುಕೊಂಡಿದ್ದೇನೆ.,legitimate,True
+VG_SYN_134,kannada_script,normal_payment,legitimate,ಹಣ ಬಂದಿದೆಯೇ ಎಂದು ಬ್ಯಾಂಕ್ ಸ್ಟೇಟ್ಮೆಂಟ್‌ನಲ್ಲಿ ಪರಿಶೀಲಿಸಿ.,legitimate,True
+VG_SYN_135,kannada_script,normal_payment,legitimate,ಆನ್‌ಲೈನ್ ಖರೀದಿಗೆ ಅಧಿಕೃತ ಪಾವತಿ ಗೇಟ್‌ವೇ ಬಳಸಿದೆ.,legitimate,True
+VG_SYN_136,kannada_script,safe_refund_process,legitimate,ಪಾವತಿ ವಿಫಲವಾದರೆ ಸ್ವಯಂಚಾಲಿತ ಮರುಪಾವತಿಗಾಗಿ ಬ್ಯಾಂಕ್ ಸೂಚನೆಗಳನ್ನು ಓದಿ.,legitimate,True
+VG_SYN_140,kannada_script,safe_refund_process,legitimate,ಪಾವತಿಯ ಬಗ್ಗೆ ಅನುಮಾನವಿದ್ದರೆ ಅಧಿಕೃತ ಗ್ರಾಹಕ ಸೇವೆಗೆ ಕರೆ ಮಾಡುತ್ತೇನೆ.,legitimate,True
+VG_SYN_141,romanized_kannada,normal_payment,legitimate,"Naanu amount kalisiddene, nimma bank app alli credit agideya check maadi.",legitimate,True
+VG_SYN_144,romanized_kannada,normal_payment,legitimate,Shop alli QR scan maadi bill pay maadide.,scam,False
+VG_SYN_145,romanized_kannada,official_kyc,legitimate,KYC update madoke bank branch ge hogtini.,scam,False
+VG_SYN_147,romanized_kannada,payment_receipt,legitimate,Payment receipt na official app alli save maadiddene.,legitimate,True
+VG_SYN_148,romanized_kannada,safe_refund_process,legitimate,Wrong payment aadre bank official helpline contact maadi.,legitimate,True
+VG_SYN_152,romanized_kannada,official_kyc,legitimate,Account details update madoke branch appointment book maadiddene.,scam,False
+VG_SYN_153,romanized_kannada,normal_payment,legitimate,Online purchase ge official payment gateway use maadide.,legitimate,True
+VG_SYN_154,romanized_kannada,safe_refund_process,legitimate,Payment fail aadre bank official instructions follow maadtini.,legitimate,True
+VG_SYN_158,romanized_kannada,payment_receipt,legitimate,Bill pay aadmele confirmation message bandide.,legitimate,True
+VG_SYN_159,romanized_kannada,safe_refund_process,legitimate,Refund status nodoke official app open maadiddene.,legitimate,True
+VG_SYN_160,romanized_kannada,safe_refund_process,legitimate,Doubt idre bank official customer care number ge call maadtini.,legitimate,True
+VG_SYN_161,kannada_english_mixed,normal_payment,legitimate,Amount transfer ಮಾಡಿದ್ದೇನೆ; bank app ನಲ್ಲಿ credit ಆಗಿದೆಯೇ check ಮಾಡಿ.,legitimate,True
+VG_SYN_164,kannada_english_mixed,normal_payment,legitimate,Shop ನಲ್ಲಿ QR scan ಮಾಡಿ bill pay ಮಾಡಿದೆ.,scam,False
+VG_SYN_165,kannada_english_mixed,official_kyc,legitimate,KYC update ಮಾಡಲು bank branch ಗೆ ಹೋಗುತ್ತೇನೆ.,scam,False
+VG_SYN_167,kannada_english_mixed,payment_receipt,legitimate,Payment receipt ಅನ್ನು official app ನಲ್ಲಿ save ಮಾಡಿದ್ದೇನೆ.,legitimate,True
+VG_SYN_168,kannada_english_mixed,safe_refund_process,legitimate,Wrong transaction ಆಗಿದ್ದರೆ bank official helpline ಸಂಪರ್ಕಿಸಿ.,legitimate,True
+VG_SYN_172,kannada_english_mixed,official_kyc,legitimate,Account details update ಮಾಡಲು branch appointment ತೆಗೆದುಕೊಂಡಿದ್ದೇನೆ.,scam,False
+VG_SYN_173,kannada_english_mixed,normal_payment,legitimate,Online shopping ಗೆ trusted official payment gateway ಬಳಸಿದೆ.,legitimate,True
+VG_SYN_174,kannada_english_mixed,safe_refund_process,legitimate,Payment fail ಆದರೆ official refund instructions follow ಮಾಡುತ್ತೇನೆ.,legitimate,True
+VG_SYN_178,kannada_english_mixed,payment_receipt,legitimate,Bill pay ಆದ ಮೇಲೆ official confirmation ಬಂದಿದೆ.,legitimate,True
+VG_SYN_179,kannada_english_mixed,safe_refund_process,legitimate,Refund status ನೋಡಲು official app ಮಾತ್ರ ಬಳಸುತ್ತೇನೆ.,legitimate,True
+VG_SYN_180,kannada_english_mixed,safe_refund_process,legitimate,Doubt ಇದ್ದರೆ bank official customer care ಗೆ ಕರೆ ಮಾಡುತ್ತೇನೆ.,legitimate,True

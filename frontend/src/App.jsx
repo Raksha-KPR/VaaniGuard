@@ -7,6 +7,7 @@ function App() {
   const [message, setMessage] = useState("");
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
 
   const MAX_LENGTH = 1000;
 
@@ -17,8 +18,8 @@ function App() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // DEMO MESSAGE ANALYSIS
-  const analyzeMessage = () => {
+  // ANALYZE MESSAGE USING THE VAANIGUARD ML API
+  const analyzeMessage = async () => {
     const cleanedMessage = message.trim();
 
     if (!cleanedMessage) {
@@ -34,28 +35,37 @@ function App() {
     }
 
     setError("");
+    setResult(null);
+    setIsAnalyzing(true);
 
-    const lowerMessage = cleanedMessage.toLowerCase();
+    try {
+      const response = await fetch("http://127.0.0.1:8010/analyze", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({ message: cleanedMessage }),
+      });
 
-    const scamKeywords = [
-      "otp", "urgent", "kyc", "blocked", "verify",
-      "upi", "pin", "click here", "refund", "prize",
-      "account suspended", "bank details", "ನಿಮ್ಮ",
-      "ತಕ್ಷಣ", "ಲಿಂಕ್"
-    ];
+      const data = await response.json();
 
-    const matchedKeywords = scamKeywords.filter((keyword) =>
-      lowerMessage.includes(keyword)
-    );
+      if (!response.ok) {
+        throw new Error(
+          data.detail || "Message analysis failed. Please try again."
+        );
+      }
 
-    const isSuspicious = matchedKeywords.length > 0;
-
-    setResult({
-      prediction: isSuspicious ? "scam" : "legitimate",
-      confidence: isSuspicious ? 85 : 78,
-      matchedKeywords,
-      notice: "This is a demonstration result based on simple keyword matching, not a trained ML prediction."
-    });
+      setResult(data);
+    } catch (requestError) {
+      setError(
+        requestError.message === "Failed to fetch"
+          ? "Could not connect to the VaaniGuard API. Make sure the backend is running on port 8010."
+          : requestError.message
+      );
+    } finally {
+      setIsAnalyzing(false);
+    }
   };
 
   // CLEAR MESSAGE
@@ -339,7 +349,12 @@ function App() {
               <div className="card-heading">
                 <h2>Message Analysis</h2>
                 <span className="status">
-                  ● {result ? "Analysis complete" : "Awaiting message"}
+                  ●{" "}
+                  {isAnalyzing
+                    ? "Analyzing message"
+                    : result
+                      ? "Analysis complete"
+                      : "Awaiting message"}
                 </span>
               </div>
 
@@ -374,9 +389,9 @@ function App() {
                   <button
                     type="button"
                     onClick={analyzeMessage}
-                    disabled={!message.trim()}
+                    disabled={!message.trim() || isAnalyzing}
                   >
-                    Analyze Message →
+                    {isAnalyzing ? "Analyzing..." : "Analyze Message →"}
                   </button>
                 </div>
               </div>
@@ -387,54 +402,111 @@ function App() {
                 </p>
               )}
 
+              {/* COMPLETE ML AND EXPLAINABLE AI RESULTS */}
               {result && (
                 <div className="result-preview">
                   <div className="result-preview-heading">
                     <span className="section-label">
-                      VAANIGUARD DEMO ANALYSIS
+                      VAANIGUARD ML ANALYSIS
                     </span>
-                    <span className="demo-tag">DEMO RESULT</span>
+                    <span className="demo-tag">EXPERIMENTAL MODEL</span>
                   </div>
 
                   <h2>Scam Detection Results</h2>
 
                   <p className="result-description">
-                    Your message has been checked using a simple
-                    demonstration keyword-matching approach.
+                    The message was analyzed using the VaaniGuard experimental
+                    baseline machine-learning model.
                   </p>
 
+                  {/* CLASSIFICATION AND CONFIDENCE */}
                   <div className="result-status-grid">
                     <div className="result-status-card">
                       <span>CLASSIFICATION</span>
                       <strong>
-                        {result.prediction.toUpperCase()}
+                        {String(result.prediction).toUpperCase()}
                       </strong>
-                      <p>Demo classification</p>
+                      <p>Model prediction</p>
                     </div>
 
                     <div className="result-status-card">
-                      <span>DEMO SCORE</span>
+                      <span>MODEL CONFIDENCE</span>
                       <strong>{result.confidence}%</strong>
-                      <p>Illustrative score, not ML confidence</p>
+                      <p>Experimental model score</p>
                     </div>
                   </div>
 
-                  <div className="result-detail">
-                    <h3>◈ Matched Suspicious Keywords</h3>
-                    <p>
-                      {result.matchedKeywords.length > 0
-                        ? result.matchedKeywords.join(", ")
-                        : "No configured suspicious keywords were found."}
-                    </p>
+                  {/* PROBABILITIES */}
+                  <div className="result-status-grid">
+                    <div className="result-status-card">
+                      <span>LEGITIMATE PROBABILITY</span>
+                      <strong>
+                        {result.probabilities?.legitimate ?? 0}%
+                      </strong>
+                      <p>Model probability</p>
+                    </div>
+
+                    <div className="result-status-card">
+                      <span>SCAM PROBABILITY</span>
+                      <strong>
+                        {result.probabilities?.scam ?? 0}%
+                      </strong>
+                      <p>Model probability</p>
+                    </div>
                   </div>
 
+                  {/* EXPLAINABLE AI INDICATORS */}
                   <div className="result-detail">
-                    <h3>✦ Important Notice</h3>
+                    <h3>◈ Suspicious Indicators</h3>
+
+                    {result.indicators?.length > 0 ? (
+                      result.indicators.map((indicator, index) => (
+                        <div key={index}>
+                          <strong>{indicator.category}</strong>
+                          <p>
+                            Detected phrases:{" "}
+                            {indicator.matched_phrases.join(", ")}
+                          </p>
+                        </div>
+                      ))
+                    ) : (
+                      <p>
+                        No configured suspicious phrases were detected.
+                      </p>
+                    )}
+                  </div>
+
+                  {/* EXPLANATION */}
+                  <div className="result-detail">
+                    <h3>⌁ Why Was This Message Classified This Way?</h3>
+                    <p>{result.explanation}</p>
+                  </div>
+
+                  {/* SAFETY RECOMMENDATIONS */}
+                  <div className="result-detail">
+                    <h3>✦ Safety Recommendations</h3>
+
+                    {result.recommendations?.length > 0 ? (
+                      <ul>
+                        {result.recommendations.map(
+                          (recommendation, index) => (
+                            <li key={index}>{recommendation}</li>
+                          )
+                        )}
+                      </ul>
+                    ) : (
+                      <p>No recommendations are available.</p>
+                    )}
+                  </div>
+
+                  {/* IMPORTANT NOTICE */}
+                  <div className="result-detail">
+                    <h3>Important Notice</h3>
                     <p>{result.notice}</p>
                     <p>
-                      Do not treat a legitimate demo result as proof
-                      that a message is safe. Never share your OTP,
-                      UPI PIN or banking credentials.
+                      A legitimate prediction does not guarantee that a
+                      message is safe. Never share your OTP, UPI PIN or
+                      banking credentials.
                     </p>
                   </div>
                 </div>
