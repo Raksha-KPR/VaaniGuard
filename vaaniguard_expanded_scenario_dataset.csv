@@ -1,0 +1,205 @@
+id,text,language_format,label,scenario,origin,review_status,split
+VG-003,₹5000 ಬಹುಮಾನ ಗೆದ್ದಿದ್ದೀರಿ. ಹಣ ಪಡೆಯಲು ಮೊದಲು ₹199 ಶುಲ್ಕ ಪಾವತಿಸಿ.,kannada_script,scam,advance_fee,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-004,"ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಅಧಿಕಾರಿಯಂತೆ ಮಾತನಾಡುತ್ತಿದ್ದೇನೆ. ನಿಮ್ಮ UPI PIN ತಿಳಿಸಿ, ಖಾತೆ ಸುರಕ್ಷಿತವಾಗಿರುತ್ತದೆ.",kannada_script,scam,pin_request_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-005,ತಪ್ಪಾಗಿ ₹3000 ಕಳುಹಿಸಿದ್ದೇನೆ. ಈ QR ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಹಣ ಸ್ವೀಕರಿಸಿ.,kannada_script,scam,qr_receive_deception,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-006,ಇಂದು ರಾತ್ರಿ ಒಳಗೆ PAN ವಿವರಗಳನ್ನು ಈ ಅಪರಿಚಿತ ಲಿಂಕ್‌ಗೆ ಅಪ್ಲೋಡ್ ಮಾಡದಿದ್ದರೆ ಖಾತೆ ಮುಚ್ಚುತ್ತದೆ.,kannada_script,scam,threat_link,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-011,ನಿಮ್ಮ ಖಾತೆಯಿಂದ ₹250 UPI ಮೂಲಕ ಪಾವತಿಸಲಾಗಿದೆ. ವಿವರಗಳಿಗೆ ಅಧಿಕೃತ ಬ್ಯಾಂಕ್ ಆಪ್ ನೋಡಿ.,kannada_script,legitimate,transaction_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-012,ನಾಳೆ ನಾನು ನಿನಗೆ ₹500 UPI ಮೂಲಕ ಕಳುಹಿಸುತ್ತೇನೆ.,kannada_script,legitimate,personal_message,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-013,ನಿಮ್ಮ ಖಾತೆಗೆ ₹1200 ಜಮಾ ಆಗಿದೆ. ಇದು ಕೇವಲ ಮಾಹಿತಿ ಸಂದೇಶ.,kannada_script,legitimate,credit_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-014,ನಿಮ್ಮ ಬ್ಯಾಂಕ್ OTP ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ ಎಂದು ಸೂಚಿಸುತ್ತದೆ.,kannada_script,legitimate,security_advice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-015,ನಿಮ್ಮ ವಿದ್ಯುತ್ ಬಿಲ್ ₹850 ಪಾವತಿಸಲಾಗಿದೆ. ರಸೀದಿ ಆಪ್‌ನಲ್ಲಿ ಲಭ್ಯವಿದೆ.,kannada_script,legitimate,payment_confirmation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-016,ನಿನ್ನೆ ಮಾಡಿದ ಪಾವತಿಯ ರಿಫಂಡ್ ನಿಮ್ಮ ಖಾತೆಗೆ ಜಮಾ ಆಗಿದೆ.,kannada_script,legitimate,refund_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-019,ನಾನು ಕಳುಹಿಸಿದ ಹಣ ನಿನಗೆ ತಲುಪಿದೆಯಾ?,kannada_script,legitimate,personal_message,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-020,ನಿಮ್ಮ ಕಾರ್ಡ್ ವ್ಯವಹಾರ ನಿರಾಕರಿಸಲಾಗಿದೆ. ಯಾವುದೇ ಹಣ ಕಡಿತವಾಗಿಲ್ಲ.,kannada_script,legitimate,failed_transaction,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-023,"Neevu 5000 prize geddiddira, claim madakke modalu 199 rupees pay madi.",romanized_kannada,scam,advance_fee,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-024,"Naanu bank officer, nimma UPI PIN heli account secure madtini.",romanized_kannada,scam,pin_request_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-025,Money receive madakke ee QR scan madi PIN enter madi.,romanized_kannada,scam,qr_receive_deception,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-030,"Ivattu KYC madilla andre account freeze agutte, PAN details link alli upload madi.",romanized_kannada,scam,threat_link,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-031,Nale ninge 500 rupees UPI madtini.,romanized_kannada,legitimate,personal_message,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-032,"Nimma account ge 1200 credit agide, bank app alli check madi.",romanized_kannada,legitimate,credit_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-033,"UPI payment successful agide, receipt app alli ide.",romanized_kannada,legitimate,payment_confirmation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-034,OTP yaarigu share madbedi anta bank helide.,romanized_kannada,legitimate,security_advice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-035,Ninne madida payment refund account ge bandide.,romanized_kannada,legitimate,refund_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-036,Nimma electricity bill 850 pay agide.,romanized_kannada,legitimate,payment_confirmation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-037,Ninge money reach aitha?,romanized_kannada,legitimate,personal_message,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-038,"Card payment fail agide, amount debit agilla.",romanized_kannada,legitimate,failed_transaction,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-040,"UPI transfer 250 complete agide, transaction history nodi.",romanized_kannada,legitimate,transaction_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-043,"ನೀವು ₹5000 prize ಗೆದ್ದಿದ್ದೀರಿ, claim ಮಾಡಲು ₹199 fee pay ಮಾಡಿ.",kannada_english_mixed,scam,advance_fee,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-044,"ನಾನು bank officer. ನಿಮ್ಮ UPI PIN ಕಳುಹಿಸಿ, account secure ಮಾಡುತ್ತೇನೆ.",kannada_english_mixed,scam,pin_request_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-045,ಹಣ receive ಮಾಡಲು ಈ QR scan ಮಾಡಿ ಮತ್ತು PIN enter ಮಾಡಿ.,kannada_english_mixed,scam,qr_receive_deception,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-050,ಇಂದೇ PAN details ಈ unknown link ಗೆ upload ಮಾಡದಿದ್ದರೆ account close ಆಗುತ್ತದೆ.,kannada_english_mixed,scam,threat_link,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-051,ನಾಳೆ ನಿನಗೆ ₹500 UPI transfer ಮಾಡುತ್ತೇನೆ.,kannada_english_mixed,legitimate,personal_message,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-052,ನಿಮ್ಮ account ಗೆ ₹1200 credit ಆಗಿದೆ.,kannada_english_mixed,legitimate,credit_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-053,ನಿಮ್ಮ UPI payment successful ಆಗಿದೆ. Receipt app ನಲ್ಲಿ ಇದೆ.,kannada_english_mixed,legitimate,payment_confirmation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-054,OTP ಯಾರಿಗೂ share ಮಾಡಬೇಡಿ ಎಂದು bank ತಿಳಿಸಿದೆ.,kannada_english_mixed,legitimate,security_advice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-055,ನಿಮ್ಮ refund account ಗೆ credit ಆಗಿದೆ.,kannada_english_mixed,legitimate,refund_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-056,ನಿಮ್ಮ electricity bill ₹850 pay ಆಗಿದೆ.,kannada_english_mixed,legitimate,payment_confirmation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-057,ನಾನು ಕಳುಹಿಸಿದ money ನಿನಗೆ ಸಿಕ್ಕಿದೆಯಾ?,kannada_english_mixed,legitimate,personal_message,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-058,ನಿಮ್ಮ card payment failed ಆಗಿದೆ. Amount debit ಆಗಿಲ್ಲ.,kannada_english_mixed,legitimate,failed_transaction,synthetic_assistant_draft,needs_native_speaker_review,training
+VG-060,₹250 UPI transfer complete ಆಗಿದೆ. Transaction history ನೋಡಿ.,kannada_english_mixed,legitimate,transaction_notice,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_063,ನಿಮ್ಮ ಖಾತೆಗೆ ಬಹುಮಾನ ಬಂದಿದೆ. ಪಡೆಯಲು ಮೊದಲು ₹500 ಶುಲ್ಕ ಪಾವತಿಸಿ.,kannada_script,scam,advance_fee,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_064,ನಾನು ಬ್ಯಾಂಕ್ ಸಿಬ್ಬಂದಿ ಮಾತನಾಡುತ್ತಿದ್ದೇನೆ. ನಿಮ್ಮ PIN ಪರಿಶೀಲನೆಗೆ ಕಳುಹಿಸಿ.,kannada_script,scam,pin_request,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_065,ನಿಮ್ಮ ವಿದ್ಯುತ್ ಸಂಪರ್ಕ ಕಡಿತವಾಗಲಿದೆ. ತಕ್ಷಣ ಈ QR ಕೋಡ್‌ಗೆ ಹಣ ಕಳುಹಿಸಿ.,kannada_script,scam,utility_payment_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_067,ನಿಮ್ಮ ಹಣ ತಪ್ಪಾಗಿ ಜಮೆಯಾಗಿದೆ. ವಾಪಸ್ ಮಾಡಲು ಈ UPI ID ಗೆ ಹಣ ಕಳುಹಿಸಿ.,kannada_script,scam,refund_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_068,ನಿಮ್ಮ ಮಗ ಅಪಘಾತದಲ್ಲಿದ್ದಾನೆ ಎಂದು ಹೇಳಿ ಹಣ ಕಳುಹಿಸಲು ಒತ್ತಾಯಿಸುತ್ತಿದ್ದಾರೆ.,kannada_script,scam,emergency_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_070,ನಿಮ್ಮ ಲಾಟರಿ ಬಹುಮಾನ ಪಡೆಯಲು ಬ್ಯಾಂಕ್ OTP ತಕ್ಷಣ ತಿಳಿಸಿ.,kannada_script,scam,prize_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_071,"ಪೊಲೀಸ್ ಅಧಿಕಾರಿಯಿಂದ ಕರೆ ಎಂದು ಹೇಳಿ, ಪ್ರಕರಣ ಮುಚ್ಚಲು ಹಣ ಕೇಳುತ್ತಿದ್ದಾರೆ.",kannada_script,scam,authority_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_072,ನಿಮ್ಮ UPI PIN ನಮೂದಿಸಿದರೆ ಮಾತ್ರ ಹಣ ಸ್ವೀಕರಿಸಬಹುದು ಎಂದು ಸಂದೇಶ ಬಂದಿದೆ.,kannada_script,scam,upi_pin_trick,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_073,ನಿಮ್ಮ ಪಾರ್ಸೆಲ್ ತಡೆಹಿಡಿಯಲಾಗಿದೆ. ಬಿಡುಗಡೆ ಶುಲ್ಕವನ್ನು ಈ ಲಿಂಕ್‌ನಲ್ಲಿ ಪಾವತಿಸಿ.,kannada_script,scam,delivery_fee_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_074,ನಿಮ್ಮ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ರಿವಾರ್ಡ್ ಮುಕ್ತಾಯವಾಗುತ್ತದೆ. ಕಾರ್ಡ್ CVV ಕಳುಹಿಸಿ.,kannada_script,scam,card_detail_request,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_075,"ತಕ್ಷಣ ಹಣ ಕಳುಹಿಸಿ, ನಂತರ ಎರಡು ಪಟ್ಟು ಹಿಂತಿರುಗಿಸುತ್ತೇವೆ ಎಂದು ಹೇಳುತ್ತಿದ್ದಾರೆ.",kannada_script,scam,investment_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_076,ನಿಮ್ಮ ಸಿಮ್ ಕಾರ್ಡ್ ನಿಲ್ಲುತ್ತದೆ. OTP ಹೇಳಿ ಹೊಸ KYC ಮಾಡಿಸಿಕೊಳ್ಳಿ.,kannada_script,scam,sim_kyc_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_079,ನಿಮ್ಮ ಸ್ನೇಹಿತನಂತೆ ನಟಿಸಿ ತುರ್ತು ಹಣವನ್ನು ಬೇರೆ UPI ID ಗೆ ಕಳುಹಿಸಲು ಕೇಳುತ್ತಿದ್ದಾರೆ.,kannada_script,scam,friend_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_080,ಬ್ಯಾಂಕ್ ಖಾತೆ ಪರಿಶೀಲನೆಗಾಗಿ ATM PIN ಮತ್ತು ಕಾರ್ಡ್ ಸಂಖ್ಯೆ ಕಳುಹಿಸಿ.,kannada_script,scam,card_detail_request,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_083,"Nimge prize bandide, claim madoke modalu registration fee pay maadi.",romanized_kannada,scam,advance_fee,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_084,"Naanu bank staff anta helta iddare, nimma UPI PIN kodi anta kelthiddare.",romanized_kannada,scam,pin_request,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_085,Current cut agutte anta message madi QR scan maadi payment maadi anta helidare.,romanized_kannada,scam,utility_payment_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_086,"SIM deactivate agutte, KYC update madoke ee link click maadi anta message.",romanized_kannada,scam,sim_kyc_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_088,Lottery amount release madoke bank OTP beku anta kelthiddare.,romanized_kannada,scam,prize_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_089,Police case close madbekandre immediate transfer maadi anta call bandide.,romanized_kannada,scam,authority_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_090,Money receive madoke UPI PIN enter maadi anta message bandide.,romanized_kannada,scam,upi_pin_trick,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_091,"Parcel hold agide, delivery release fee ee link alli pay maadi anta helidare.",romanized_kannada,scam,delivery_fee_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_092,Credit card reward claim madoke CVV mattu card details kalisi anta kelthiddare.,romanized_kannada,scam,card_detail_request,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_093,Investment ge ivattu money hakidre double return sigutte anta promise madta iddare.,romanized_kannada,scam,investment_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_095,Nimma friend anta message maadi urgent money bere UPI ID ge kalisi anta kelidare.,romanized_kannada,scam,friend_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_097,"Account ge tappagi amount bandide, reverse madoke neevu money transfer maadi anta helidare.",romanized_kannada,scam,refund_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_098,Family emergency anta helkondu unknown number inda immediate money kelthiddare.,romanized_kannada,scam,emergency_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_100,Cashback sigutte anta link click maadi UPI PIN enter maadi anta helidare.,romanized_kannada,scam,upi_pin_trick,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_103,"Congratulations, prize ಬಂದಿದೆ! Claim ಮಾಡಲು ₹500 fee pay ಮಾಡಿ.",kannada_english_mixed,scam,advance_fee,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_104,Bank officer ಅಂತ ಹೇಳಿ UPI PIN ಕೇಳುತ್ತಿದ್ದಾರೆ.,kannada_english_mixed,scam,pin_request,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_105,"Electricity bill pending ಇದೆ, QR scan ಮಾಡಿ immediate payment ಮಾಡಿ ಅಂತ message.",kannada_english_mixed,scam,utility_payment_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_106,SIM card deactivate ಆಗುತ್ತೆ; KYC update ಮಾಡಲು link click ಮಾಡಿ.,kannada_english_mixed,scam,sim_kyc_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_108,Lottery amount release ಮಾಡಲು ನಿಮ್ಮ bank OTP ಬೇಕಂತೆ.,kannada_english_mixed,scam,prize_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_109,Police case close ಮಾಡ್ತೀವಿ ಅಂತ ಹೇಳಿ ಹಣ transfer ಮಾಡಲು ಒತ್ತಡ ಹಾಕುತ್ತಿದ್ದಾರೆ.,kannada_english_mixed,scam,authority_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_110,Money receive ಆಗಲು UPI PIN enter ಮಾಡಿ ಅಂತ message ಬಂದಿದೆ.,kannada_english_mixed,scam,upi_pin_trick,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_111,Parcel delivery hold ಆಗಿದೆ; release fee online pay ಮಾಡಿ.,kannada_english_mixed,scam,delivery_fee_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_112,Credit card reward claim ಮಾಡಲು CVV ಮತ್ತು card number ಕೇಳುತ್ತಿದ್ದಾರೆ.,kannada_english_mixed,scam,card_detail_request,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_113,Guaranteed double return ಅಂತ investment ಗೆ ತಕ್ಷಣ ಹಣ ಹಾಕಿ ಎನ್ನುತ್ತಿದ್ದಾರೆ.,kannada_english_mixed,scam,investment_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_115,Friend account problem ಅಂತ ಹೇಳಿ ಬೇರೆ UPI ID ಗೆ money ಕಳುಹಿಸಿ ಎನ್ನುತ್ತಿದ್ದಾರೆ.,kannada_english_mixed,scam,friend_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_117,Wrong transfer reverse ಮಾಡಲು ನೀವು ಮೊದಲು ಹಣ ಕಳುಹಿಸಿ ಅಂತ ಹೇಳುತ್ತಿದ್ದಾರೆ.,kannada_english_mixed,scam,refund_scam,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_118,Family emergency ಇದೆ ಅಂತ unknown number ನಿಂದ urgent money ಕೇಳಿದ್ದಾರೆ.,kannada_english_mixed,scam,emergency_impersonation,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_120,Cashback ಪಡೆಯಲು QR scan ಮಾಡಿ PIN ಹಾಕಿ ಅಂತ message ಬಂದಿದೆ.,kannada_english_mixed,scam,upi_pin_trick,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_122,ನಾಳೆ ಕಾಲೇಜಿನ ಶುಲ್ಕ ಪಾವತಿಸುವ ಮೊದಲು ಅಧಿಕೃತ ಪೋರ್ಟಲ್ ಪರಿಶೀಲಿಸುತ್ತೇನೆ.,kannada_script,legitimate,safe_payment_habit,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_123,ನಿಮಗೆ ಹಣ ಕಳುಹಿಸಲು UPI ID ಕಳುಹಿಸಿ; PIN ಅಥವಾ OTP ಬೇಡ.,kannada_script,legitimate,peer_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_126,ಹಣ ಸ್ವೀಕರಿಸಲು UPI PIN ಹಂಚಿಕೊಳ್ಳುವ ಅಗತ್ಯವಿಲ್ಲ ಎಂದು ಬ್ಯಾಂಕ್ ತಿಳಿಸಿದೆ.,kannada_script,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_129,ನಾನು ಬಿಲ್ ಪಾವತಿಯನ್ನು ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲೇ ಮಾಡುತ್ತೇನೆ.,kannada_script,legitimate,safe_payment_habit,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_130,ಸ್ನೇಹಿತನಿಗೆ ಕಳುಹಿಸಿದ ಹಣದ transaction ID ಅನ್ನು ಉಳಿಸಿಕೊಂಡಿದ್ದೇನೆ.,kannada_script,legitimate,peer_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_131,ಬ್ಯಾಂಕ್ OTP ಅನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬಾರದು ಎಂದು ಅಮ್ಮ ಹೇಳಿದರು.,kannada_script,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_133,ವಿದ್ಯುತ್ ಬಿಲ್ ಪಾವತಿಸಲು ಇಲಾಖೆಯ ಅಧಿಕೃತ ಅಪ್ಲಿಕೇಶನ್ ಬಳಸಿದೆ.,kannada_script,legitimate,utility_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_137,ನಾನು ಅಪರಿಚಿತ ಲಿಂಕ್‌ಗಳನ್ನು ತೆರೆಯದೆ ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್‌ಗೆ ಹೋಗುತ್ತೇನೆ.,kannada_script,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_138,UPI ಪಾವತಿ ಮಾಡುವ ಮೊದಲು ಸ್ವೀಕರಿಸುವವರ ಹೆಸರನ್ನು ಪರಿಶೀಲಿಸುತ್ತೇನೆ.,kannada_script,legitimate,safe_payment_habit,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_139,ಬ್ಯಾಂಕ್ ಸಿಬ್ಬಂದಿ ನನ್ನ PIN ಕೇಳುವುದಿಲ್ಲ ಎಂದು ನನಗೆ ತಿಳಿದಿದೆ.,kannada_script,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_142,College fees pay madoke official portal use madtini.,romanized_kannada,legitimate,safe_payment_habit,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_143,"Nimge money kalisbeku, UPI ID kalisi; OTP athava PIN beda.",romanized_kannada,legitimate,peer_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_146,Money receive madoke UPI PIN share madbekagilla anta gothu.,romanized_kannada,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_149,Electricity bill official website moolaka pay maadide.,romanized_kannada,legitimate,utility_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_150,Friend ge money kalisida transaction ID save maadiddene.,romanized_kannada,legitimate,peer_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_151,Bank OTP yaarigu helabaradu anta nanage gothu.,romanized_kannada,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_155,Unknown link open maadade official website type maadi hogtini.,romanized_kannada,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_156,UPI payment munche receiver hesaru check maadtini.,romanized_kannada,legitimate,safe_payment_habit,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_157,Bank staff PIN kelalla anta bank awareness message helide.,romanized_kannada,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_162,College fees ಅನ್ನು official portal ಮೂಲಕ pay ಮಾಡುತ್ತೇನೆ.,kannada_english_mixed,legitimate,safe_payment_habit,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_163,Money ಕಳುಹಿಸಲು UPI ID ಸಾಕು; PIN ಅಥವಾ OTP share ಮಾಡಬೇಡಿ.,kannada_english_mixed,legitimate,peer_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_166,Money receive ಮಾಡಲು UPI PIN ಬೇಕಾಗುವುದಿಲ್ಲ ಎಂದು ನನಗೆ ಗೊತ್ತು.,kannada_english_mixed,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_169,Electricity bill ಅನ್ನು department official app ನಲ್ಲಿ pay ಮಾಡಿದೆ.,kannada_english_mixed,legitimate,utility_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_170,Friend ಗೆ money ಕಳುಹಿಸಿದ transaction ID ನನ್ನ ಬಳಿ ಇದೆ.,kannada_english_mixed,legitimate,peer_payment,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_171,Bank OTP ಯಾರೊಂದಿಗೂ share ಮಾಡಬಾರದು.,kannada_english_mixed,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_175,Unknown link ಬದಲಿಗೆ bank official website open ಮಾಡುತ್ತೇನೆ.,kannada_english_mixed,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_176,UPI payment ಮುಂಚೆ receiver name verify ಮಾಡುತ್ತೇನೆ.,kannada_english_mixed,legitimate,safe_payment_habit,synthetic_assistant_draft,needs_native_speaker_review,training
+VG_SYN_177,Bank staff ಎಂದಿಗೂ PIN ಕೇಳುವುದಿಲ್ಲ ಎಂದು awareness message ನಲ್ಲಿ ಓದಿದೆ.,kannada_english_mixed,legitimate,safety_awareness,synthetic_assistant_draft,needs_native_speaker_review,training
+otp_direct_romanized,UPI refund beku andre OTP nanage heli.,romanized_kannada,scam,otp_request,synthetic_expansion_new,needs_native_speaker_review,training
+otp_direct_mixed,Refund ಪಡೆಯಲು ನಿಮ್ಮ OTP share ಮಾಡಿ.,kannada_english_mixed,scam,otp_request,synthetic_expansion_new,needs_native_speaker_review,training
+otp_direct_kannada,ಹಣ ವಾಪಸ್ ಪಡೆಯಲು ನಿಮ್ಮ OTP ತಿಳಿಸಿ.,kannada_script,scam,otp_request,synthetic_expansion_new,needs_native_speaker_review,training
+otp_safe_romanized,"Bank yavattu OTP kelalla, yaarigu helbedi.",romanized_kannada,legitimate,otp_safety,synthetic_expansion_new,needs_native_speaker_review,training
+otp_safe_mixed,OTP ಯಾರಿಗೂ share ಮಾಡಬೇಡಿ ಎಂದು bank ಎಚ್ಚರಿಸಿದೆ.,kannada_english_mixed,legitimate,otp_safety,synthetic_expansion_new,needs_native_speaker_review,training
+otp_safe_kannada,ನಿಮ್ಮ ಬ್ಯಾಂಕ್ OTP ಅನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ.,kannada_script,legitimate,otp_safety,synthetic_expansion_new,needs_native_speaker_review,training
+remote_scam_romanized,"Bank verification ge remote access app install maadi, screen share maadi.",romanized_kannada,scam,remote_access_scam,synthetic_expansion_new,needs_native_speaker_review,training
+remote_scam_mixed,Account verify ಮಾಡಲು remote access app install ಮಾಡಿ.,kannada_english_mixed,scam,remote_access_scam,synthetic_expansion_new,needs_native_speaker_review,training
+remote_scam_kannada,ಬ್ಯಾಂಕ್ ಪರಿಶೀಲನೆಗಾಗಿ ಈ ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಾಪಿಸಿ ಫೋನ್ ನಿಯಂತ್ರಣ ನೀಡಿ.,kannada_script,scam,remote_access_scam,synthetic_expansion_new,needs_native_speaker_review,training
+remote_safe_romanized,Unknown remote access app install madabedi anta bank helide.,romanized_kannada,legitimate,remote_access_safety,synthetic_expansion_new,needs_native_speaker_review,training
+remote_safe_mixed,Unknown remote access app install ಮಾಡಬೇಡಿ ಎಂದು bank ಸೂಚಿಸಿದೆ.,kannada_english_mixed,legitimate,remote_access_safety,synthetic_expansion_new,needs_native_speaker_review,training
+remote_safe_kannada,ಅಪರಿಚಿತರು ಹೇಳಿದ ರಿಮೋಟ್ ಆಕ್ಸೆಸ್ ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಾಪಿಸಬೇಡಿ.,kannada_script,legitimate,remote_access_safety,synthetic_expansion_new,needs_native_speaker_review,training
+qr_scam_romanized,Money receive madoke ee QR scan maadi UPI PIN haki.,romanized_kannada,scam,qr_receive_scam,synthetic_expansion_new,needs_native_speaker_review,training
+qr_scam_mixed,ಹಣ receive ಮಾಡಲು ಈ QR scan ಮಾಡಿ PIN enter ಮಾಡಿ.,kannada_english_mixed,scam,qr_receive_scam,synthetic_expansion_new,needs_native_speaker_review,training
+qr_scam_kannada,ಹಣ ಸ್ವೀಕರಿಸಲು ಈ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ UPI ಪಿನ್ ನಮೂದಿಸಿ.,kannada_script,scam,qr_receive_scam,synthetic_expansion_new,needs_native_speaker_review,training
+qr_safe_romanized,Shop alli QR scan maadi bill pay madide.,romanized_kannada,legitimate,normal_payment,synthetic_expansion_new,needs_native_speaker_review,training
+qr_safe_mixed,Shop ನಲ್ಲಿ QR scan ಮಾಡಿ bill pay ಮಾಡಿದೆ.,kannada_english_mixed,legitimate,normal_payment,synthetic_expansion_new,needs_native_speaker_review,training
+qr_safe_kannada,ಅಂಗಡಿಯಲ್ಲಿ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಬಿಲ್ ಪಾವತಿಸಿದೆ.,kannada_script,legitimate,normal_payment,synthetic_expansion_new,needs_native_speaker_review,training
+kyc_scam_romanized,"KYC expire agide, account block agutte, ee link click maadi.",romanized_kannada,scam,kyc_urgency_link,synthetic_expansion_new,needs_native_speaker_review,training
+kyc_scam_mixed,"KYC pending ಇದೆ, account freeze ಆಗುತ್ತದೆ, link open ಮಾಡಿ.",kannada_english_mixed,scam,kyc_urgency_link,synthetic_expansion_new,needs_native_speaker_review,training
+kyc_scam_kannada,"ನಿಮ್ಮ KYC ಅಪೂರ್ಣವಾಗಿದೆ, ಖಾತೆ ಉಳಿಸಲು ಈ ಲಿಂಕ್ ತೆರೆಯಿರಿ.",kannada_script,scam,kyc_urgency_link,synthetic_expansion_new,needs_native_speaker_review,training
+kyc_safe_romanized,KYC update madoke bank branch ge hogtini.,romanized_kannada,legitimate,official_kyc,synthetic_expansion_new,needs_native_speaker_review,training
+kyc_safe_mixed,KYC update ಮಾಡಲು bank branch ಗೆ ಹೋಗುತ್ತೇನೆ.,kannada_english_mixed,legitimate,official_kyc,synthetic_expansion_new,needs_native_speaker_review,training
+kyc_safe_kannada,ನನ್ನ KYC ವಿವರಗಳನ್ನು ನವೀಕರಿಸಲು ಬ್ಯಾಂಕ್ ಶಾಖೆಗೆ ಹೋಗುತ್ತೇನೆ.,kannada_script,legitimate,official_kyc,synthetic_expansion_new,needs_native_speaker_review,training
+VG-001,ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆ ಇಂದು ಬ್ಲಾಕ್ ಆಗುತ್ತದೆ. ತಕ್ಷಣ ಈ ಲಿಂಕ್‌ನಲ್ಲಿ KYC ಅಪ್ಡೇಟ್ ಮಾಡಿ: https://example.invalid/kyc,kannada_script,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-002,ನಿಮ್ಮ UPI ಹಣವನ್ನು ಮರಳಿ ಪಡೆಯಲು OTP ಅನ್ನು ಈ ಸಂಖ್ಯೆಗೆ ಕಳುಹಿಸಿ.,kannada_script,scam,otp_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-007,ನಿಮ್ಮ ಪೇಮೆಂಟ್ ವಿಫಲವಾಗಿದೆ. ರಿಫಂಡ್ ಪಡೆಯಲು ಕಾರ್ಡ್ CVV ಕಳುಹಿಸಿ.,kannada_script,scam,cvv_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-008,ಸರ್ಕಾರದ ಸಹಾಯಧನ ಪಡೆಯಲು ಈ ಖಾಸಗಿ UPI ಐಡಿಗೆ ₹250 ನೋಂದಣಿ ಶುಲ್ಕ ಕಳುಹಿಸಿ.,kannada_script,scam,advance_fee_impersonation,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-009,ಬ್ಯಾಂಕ್ ಭದ್ರತಾ ಪರಿಶೀಲನೆಗಾಗಿ ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ರಿಮೋಟ್ ಆಕ್ಸೆಸ್ ಆಪ್ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ.,kannada_script,scam,remote_access,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-010,ನಿಮ್ಮ UPI ಖಾತೆ ಸ್ಥಗಿತಗೊಳ್ಳುತ್ತದೆ. ಈ ಲಿಂಕ್‌ನಲ್ಲಿ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ: https://example.invalid/verify,kannada_script,scam,credential_phishing,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-017,UPI ಪಾವತಿ ಯಶಸ್ವಿಯಾಗಿದೆ. ವ್ಯವಹಾರದ ವಿವರಗಳನ್ನು ಆಪ್‌ನಲ್ಲಿ ಪರಿಶೀಲಿಸಿ.,kannada_script,legitimate,upi_confirmation,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-018,ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಶಾಖೆಯ ಕೆಲಸದ ಸಮಯ ಸೋಮವಾರದಿಂದ ಶುಕ್ರವಾರದವರೆಗೆ ಇದೆ.,kannada_script,legitimate,information,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-021,"Nimma bank account ivattu block agutte, KYC update madalu https://example.invalid/kyc open madi.",romanized_kannada,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-022,UPI refund beka? OTP nanage share madi.,romanized_kannada,scam,otp_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-026,"Nimma account close agutte, password ee link alli enter madi https://example.invalid/login",romanized_kannada,scam,credential_phishing,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-027,Refund process ge card CVV number kalisi.,romanized_kannada,scam,cvv_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-028,Govt scheme amount sigbekandre first 250 registration fee UPI ge kalisi.,romanized_kannada,scam,advance_fee_impersonation,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-029,"Bank verification ge remote access app install madi, phone control kodi.",romanized_kannada,scam,remote_access,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-039,Nimma bank branch timing morning 10 inda evening 4.,romanized_kannada,legitimate,information,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-041,ನಿಮ್ಮ bank account ಇಂದು block ಆಗುತ್ತದೆ. KYC update ಮಾಡಲು https://example.invalid/kyc ತೆರೆಯಿರಿ.,kannada_english_mixed,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-042,UPI refund ಪಡೆಯಲು ನಿಮ್ಮ OTP share ಮಾಡಿ.,kannada_english_mixed,scam,otp_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-046,ನಿಮ್ಮ account freeze ಆಗುತ್ತದೆ. ಈ link ನಲ್ಲಿ password ನಮೂದಿಸಿ: https://example.invalid/login,kannada_english_mixed,scam,credential_phishing,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-047,Refund ಪಡೆಯಲು ನಿಮ್ಮ card CVV share ಮಾಡಿ.,kannada_english_mixed,scam,cvv_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-048,Government scheme amount ಪಡೆಯಲು ಮೊದಲು ₹250 registration fee UPI ಮೂಲಕ ಕಳುಹಿಸಿ.,kannada_english_mixed,scam,advance_fee_impersonation,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-049,Bank verification ಗಾಗಿ remote access app install ಮಾಡಿ.,kannada_english_mixed,scam,remote_access,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG-059,ನಿಮ್ಮ bank branch ನಾಳೆ open ಇರುತ್ತದೆ.,kannada_english_mixed,legitimate,information,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_061,ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆ ಇಂದು ಬ್ಲಾಕ್ ಆಗುತ್ತದೆ. ತಕ್ಷಣ ಈ ಲಿಂಕ್ ತೆರೆಯಿರಿ ಮತ್ತು KYC ಪೂರ್ಣಗೊಳಿಸಿ.,kannada_script,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_062,"ನಿಮ್ಮ UPI ಹಣ ಮರುಪಾವತಿಗೆ OTP ಹೇಳಿ, ಇಲ್ಲದಿದ್ದರೆ ಹಣ ವಾಪಸ್ ಬರುವುದಿಲ್ಲ.",kannada_script,scam,otp_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_066,ನಿಮ್ಮ KYC ಮುಗಿದಿಲ್ಲ. ಖಾತೆ ಉಳಿಸಿಕೊಳ್ಳಲು ಕಾರ್ಡ್ ವಿವರಗಳನ್ನು ಕಳುಹಿಸಿ.,kannada_script,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_069,ನಿಮ್ಮ ಖಾತೆ ಸುರಕ್ಷಿತವಾಗಿರಲು ಈ ಅಪ್ಲಿಕೇಶನ್ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ ಮತ್ತು ಸ್ಕ್ರೀನ್ ಹಂಚಿಕೊಳ್ಳಿ.,kannada_script,scam,remote_access_scam,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_077,ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ಅನುಮಾನಾಸ್ಪದ ಚಟುವಟಿಕೆ ಇದೆ. ಈ ಲಿಂಕ್‌ನಲ್ಲಿ ಪಾಸ್‌ವರ್ಡ್ ಹಾಕಿ.,kannada_script,scam,credential_phishing,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_078,ಸರ್ಕಾರಿ ಸಹಾಯಧನ ಬಂದಿದೆ. ಬಿಡುಗಡೆ ಮಾಡಲು ಮೊದಲು ನೋಂದಣಿ ಹಣ ಪಾವತಿಸಿ.,kannada_script,scam,government_benefit_fee,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_081,"Nimma bank account ivattu block agutte, link open maadi KYC complete maadi.",romanized_kannada,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_082,"Refund barbekandre OTP heli, illandre amount return agalla anta helta iddare.",romanized_kannada,scam,otp_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_087,Nimma account safe irbekandre app install maadi screen share maadi anta helidare.,romanized_kannada,scam,remote_access_scam,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_094,"Government benefit nimge approve agide, release fee modalu pay maadi anta helidare.",romanized_kannada,scam,government_benefit_fee,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_096,Bank verification anta password mattu card number keluva link bandide.,romanized_kannada,scam,credential_phishing,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_099,KYC expire agide anta bhaya huttisi account details kelthiddare.,romanized_kannada,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_101,"Nimma KYC pending ide; account block ಆಗುತ್ತೆ, ಈ link open ಮಾಡಿ.",kannada_english_mixed,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_102,Refund process ಗೆ OTP ಬೇಕು ಅಂತಾರೆ; OTP share ಮಾಡಬೇಡಿ ಎನ್ನುವುದನ್ನು ಮರೆಮಾಡುತ್ತಾರೆ.,kannada_english_mixed,scam,otp_request,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_107,Account secure ಮಾಡಲು ಈ app install ಮಾಡಿ screen share ಮಾಡಿ ಅಂತ ಹೇಳಿದ್ದಾರೆ.,kannada_english_mixed,scam,remote_access_scam,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_114,Government scheme benefit ಬಂದಿದೆ; processing fee ಮೊದಲು pay ಮಾಡಿ.,kannada_english_mixed,scam,government_benefit_fee,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_116,Bank verification link ನಲ್ಲಿ password enter ಮಾಡಿ ಅಂತ ಕೇಳಿದ್ದಾರೆ.,kannada_english_mixed,scam,credential_phishing,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_119,"KYC expire ಆಗಿದೆ, account safe ಇರಬೇಕಾದರೆ details share ಮಾಡಿ ಅಂತಾರೆ.",kannada_english_mixed,scam,kyc_urgency_link,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_121,ನಾನು ಹಣ ಕಳುಹಿಸಿದ್ದೇನೆ. ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಜಮೆಯಾದಿದೆಯೇ ನೋಡಿ.,kannada_script,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_124,ನಾನು ಅಂಗಡಿಯಲ್ಲಿ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಬಿಲ್ ಪಾವತಿಸಿದೆ.,kannada_script,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_125,ಬ್ಯಾಂಕ್‌ನ ಅಧಿಕೃತ ಶಾಖೆಗೆ ಹೋಗಿ KYC ವಿವರಗಳನ್ನು ನವೀಕರಿಸುತ್ತೇನೆ.,kannada_script,legitimate,official_kyc,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_127,ನಿಮ್ಮ ಪಾವತಿಯ ರಸೀದಿಯನ್ನು ಅಧಿಕೃತ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಉಳಿಸಿಕೊಳ್ಳಿ.,kannada_script,legitimate,payment_receipt,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_128,ತಪ್ಪಾದ ಪಾವತಿ ಕಂಡುಬಂದರೆ ಬ್ಯಾಂಕ್‌ನ ಅಧಿಕೃತ ಸಹಾಯವಾಣಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ.,kannada_script,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_132,ನಿಮ್ಮ ಖಾತೆಯ ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಶಾಖೆಯಲ್ಲಿ ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ತೆಗೆದುಕೊಂಡಿದ್ದೇನೆ.,kannada_script,legitimate,official_kyc,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_134,ಹಣ ಬಂದಿದೆಯೇ ಎಂದು ಬ್ಯಾಂಕ್ ಸ್ಟೇಟ್ಮೆಂಟ್‌ನಲ್ಲಿ ಪರಿಶೀಲಿಸಿ.,kannada_script,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_135,ಆನ್‌ಲೈನ್ ಖರೀದಿಗೆ ಅಧಿಕೃತ ಪಾವತಿ ಗೇಟ್‌ವೇ ಬಳಸಿದೆ.,kannada_script,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_136,ಪಾವತಿ ವಿಫಲವಾದರೆ ಸ್ವಯಂಚಾಲಿತ ಮರುಪಾವತಿಗಾಗಿ ಬ್ಯಾಂಕ್ ಸೂಚನೆಗಳನ್ನು ಓದಿ.,kannada_script,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_140,ಪಾವತಿಯ ಬಗ್ಗೆ ಅನುಮಾನವಿದ್ದರೆ ಅಧಿಕೃತ ಗ್ರಾಹಕ ಸೇವೆಗೆ ಕರೆ ಮಾಡುತ್ತೇನೆ.,kannada_script,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_141,"Naanu amount kalisiddene, nimma bank app alli credit agideya check maadi.",romanized_kannada,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_144,Shop alli QR scan maadi bill pay maadide.,romanized_kannada,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_145,KYC update madoke bank branch ge hogtini.,romanized_kannada,legitimate,official_kyc,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_147,Payment receipt na official app alli save maadiddene.,romanized_kannada,legitimate,payment_receipt,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_148,Wrong payment aadre bank official helpline contact maadi.,romanized_kannada,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_152,Account details update madoke branch appointment book maadiddene.,romanized_kannada,legitimate,official_kyc,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_153,Online purchase ge official payment gateway use maadide.,romanized_kannada,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_154,Payment fail aadre bank official instructions follow maadtini.,romanized_kannada,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_158,Bill pay aadmele confirmation message bandide.,romanized_kannada,legitimate,payment_receipt,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_159,Refund status nodoke official app open maadiddene.,romanized_kannada,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_160,Doubt idre bank official customer care number ge call maadtini.,romanized_kannada,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_161,Amount transfer ಮಾಡಿದ್ದೇನೆ; bank app ನಲ್ಲಿ credit ಆಗಿದೆಯೇ check ಮಾಡಿ.,kannada_english_mixed,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_164,Shop ನಲ್ಲಿ QR scan ಮಾಡಿ bill pay ಮಾಡಿದೆ.,kannada_english_mixed,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_165,KYC update ಮಾಡಲು bank branch ಗೆ ಹೋಗುತ್ತೇನೆ.,kannada_english_mixed,legitimate,official_kyc,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_167,Payment receipt ಅನ್ನು official app ನಲ್ಲಿ save ಮಾಡಿದ್ದೇನೆ.,kannada_english_mixed,legitimate,payment_receipt,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_168,Wrong transaction ಆಗಿದ್ದರೆ bank official helpline ಸಂಪರ್ಕಿಸಿ.,kannada_english_mixed,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_172,Account details update ಮಾಡಲು branch appointment ತೆಗೆದುಕೊಂಡಿದ್ದೇನೆ.,kannada_english_mixed,legitimate,official_kyc,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_173,Online shopping ಗೆ trusted official payment gateway ಬಳಸಿದೆ.,kannada_english_mixed,legitimate,normal_payment,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_174,Payment fail ಆದರೆ official refund instructions follow ಮಾಡುತ್ತೇನೆ.,kannada_english_mixed,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_178,Bill pay ಆದ ಮೇಲೆ official confirmation ಬಂದಿದೆ.,kannada_english_mixed,legitimate,payment_receipt,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_179,Refund status ನೋಡಲು official app ಮಾತ್ರ ಬಳಸುತ್ತೇನೆ.,kannada_english_mixed,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
+VG_SYN_180,Doubt ಇದ್ದರೆ bank official customer care ಗೆ ಕರೆ ಮಾಡುತ್ತೇನೆ.,kannada_english_mixed,legitimate,safe_refund_process,synthetic_assistant_draft,needs_native_speaker_review,evaluation
